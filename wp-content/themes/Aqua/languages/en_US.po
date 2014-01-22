@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Aqua\n"
+"POT-Creation-Date: 2013-01-04 18:34+0200\n"
+"PO-Revision-Date: 2013-01-04 18:34+0200\n"
+"Last-Translator: BlueOwlCreative <contact@blueowlcreative.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:6
+msgid "404 - Page Not Found"
+msgstr ""
+
+#: ../404.php:12
+msgid "The page you are trying to access does not exist!"
+msgstr ""
+
+#: ../comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:16
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:16
+msgid "One Comment"
+msgstr ""
+
+#: ../comments.php:16
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:37
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:49
+msgid "Leave A Comment"
+msgstr ""
+
+#: ../comments.php:62
+msgid "Logged in as"
+msgstr ""
+
+#: ../comments.php:62
+msgid "Log out &raquo;"
+msgstr ""
+
+#: ../comments.php:69 ../comments.php:92 ../comments.php:98
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:78
+msgid "Name (required)"
+msgstr ""
+
+#: ../comments.php:82
+msgid "Email (required)"
+msgstr ""
+
+#: ../comments.php:86
+msgid "Website"
+msgstr ""
+
+#: ../contact.php:84
+msgid "Contact Form"
+msgstr ""
+
+#: ../contact.php:89
+msgid "Please make sure all fields are correctly filled in!"
+msgstr ""
+
+#: ../contact.php:93
+msgid "Your email was successfully sent! Thank you for contacting us!"
+msgstr ""
+
+#: ../contact.php:98
+msgid "Name"
+msgstr ""
+
+#: ../contact.php:102
+msgid "Email"
+msgstr ""
+
+#: ../contact.php:106
+msgid "Subject"
+msgstr ""
+
+#: ../contact.php:110
+msgid "Message"
+msgstr ""
+
+#: ../contact.php:114
+msgid "Send"
+msgstr ""
+
+#: ../header.php:25
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: ../header.php:28
+#, php-format
+msgid "Archive: %s"
+msgstr ""
+
+#: ../header.php:31
+#, php-format
+msgid "Search: %s"
+msgstr ""
+
+#: ../header.php:250 ../includes/boc_custom.php:81
+msgid "Search"
+msgstr ""
+
+#: ../header.php:287
+msgid "Select Page"
+msgstr ""
+
+#: ../index.php:16
+msgid "Search results for:"
+msgstr ""
+
+#: ../index.php:106 ../single.php:90
+msgid "By "
+msgstr ""
+
+#: ../index.php:107 ../single.php:91
+msgid "No comments yet"
+msgstr ""
+
+#: ../index.php:107 ../single.php:91
+msgid "1 comment"
+msgstr ""
+
+#: ../index.php:107 ../single.php:91
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: ../index.php:107 ../single.php:91
+msgid "Comments are Off"
+msgstr ""
+
+#: ../index.php:122
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: ../portfolio-three-column.php:67
+msgid "Filter:"
+msgstr ""
+
+#: ../portfolio-three-column.php:68
+msgid "All"
+msgstr ""
+
+#: ../single-portfolio.php:74
+msgid "Related Portfolio Items"
+msgstr ""
+
+#: ../includes/boc_custom.php:14
+msgid "Home"
+msgstr ""
+
+#: ../includes/boc_custom.php:80
+msgid "404 - Page not Found"
+msgstr ""
+
+#: ../includes/boc_custom.php:232
+msgid "Edit"
+msgstr ""
+
+#: ../includes/boc_custom.php:238
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../includes/boc_custom.php:244
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../includes/boc_custom.php:312
+msgid "Previous"
+msgstr ""
+
+#: ../includes/boc_custom.php:322
+msgid "Next"
+msgstr ""
+
+#: ../includes/customizer_theme-options.php:6
+msgid "Main Menu Styles"
+msgstr ""
+
+#: ../includes/shortcodes.php:597
+msgid "Portfolio Items"
+msgstr ""

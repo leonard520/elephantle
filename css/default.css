@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/*表单容器*/
+.form_container { font-size:10pt;}
+.form_container .red { color:#F00;}
+.form_container em {color:#F00; font-style:normal; margin:0 1px; font-weight:bold;}
+
+.form_container .b { border-bottom:1px dotted #c5c5c5; padding:15px;}
+.form_container .u { margin-left:10px; color:#999;}
+
+/*表单验证项*/
+.form_container .field { padding:5px; position:relative; display:block; zoom:1;}
+.form_container .field:hover {background:#fafafa;} 
+.form_container .field_editor { width:97%;}
+.form_container span.label {width:170px; float:left;}
+.form_container div.label {width:100px; float:left;}
+
+.form_container .rules { display:none;}
+.form_container .url { display:none;}
+
+.form_container .btn { padding-bottom:15px; margin-bottom:10px; border-bottom:1px solid #e5e5e5; }
+
+/*输入框*/
+.form_container input { padding:2px; font-size:10pt; border:1px solid #ccc; background:#FFF; font: 10pt "Microsoft YaHei", Arial, Helvetica, sans-serif; }
+.form_container select { padding:2px; font-size:10pt; border:1px solid #ccc; background:#FFF; font: 10pt "Microsoft YaHei", Arial, Helvetica, sans-serif; }
+.form_container textarea { padding:2px; font-size:10pt; border:1px solid #ccc; background:#FFF; font: 10pt "Microsoft YaHei", Arial, Helvetica, sans-serif; }
+
+.form_container input:hover { border:1px solid #999;}
+.form_container textarea:hover { border:1px solid #999;}
+
+.form_container .input1 {width:225px;}
+.form_container .input2 {width:375px;}
+.form_container .input3 {width:450px;}
+
+.form_container input.submit { background:#E30E4F; color:#FFF; border:1px solid #FFF; padding:7px 25px; font-size:100%; cursor:pointer;}
+.form_container input.submit:hover { color:#FFF; border:1px solid #E30E4F;}
+
+/*宽为400px的输入项容器*/
+.form_container .w400 { display:block; zoom:1;}
+.form_container .w400 .field { width:400px; display:inline-block;}
+.form_container .w400 .label { width:100px; float:left;}
+.form_container .w400 .input1 {width:225px;}
+
+/*清理边框和背景*/
+.form_container input.noborder {border:none; background:none;}
+.form_container input.noborder:hover {border:none; background:none;}
+
+/*表单字段提示*/
+.form_container .inputTip {z-index:999999;display:none;}
+.form_container .rules {display:none;}
+
+.form_container .inputTip .tip_content {
+	position:relative;
+	cursor:pointer;
+	font: 12px "Microsoft YaHei", Arial, Helvetica, sans-serif; color:#666;
+}
+
+.form_container .inputTip .tip_content ul {
+	margin:0; padding:0 16px;
+}
+.form_container .inputTip .tip_content li {
+	list-style:disc;
+}
+
+.form_container .inputTip .tip_content .t {
+	padding:13px;
+	width:160px;
+	min-height:22px;
+	_height:22px;
+
+	line-height:20px;
+	border:1px solid #BEBEBE;
+	background:#FFF;
+
+	-moz-border-radius: 5px; -webkit-border-radius: 5px;
+	-o-box-shadow: 1px 2px 3px #ccc;
+	-icab-box-shadow: 1px 2px 3px #ccc;
+	-khtml-box-shadow: 1px 2px 3px #ccc;
+	-moz-box-shadow: 1px 2px 3px #ccc;
+	-webkit-box-shadow: 1px 2px 3px #ccc;
+	box-shadow: 1px 2px 3px #ccc;
+}
+
+.form_container .inputTip .tip_content .t strong { display:none;}
+
+.form_container .inputTip .tip_content .t1 {
+	position:absolute;
+	left:-9px;
+	top:15px;
+	background:url(t1.png) no-repeat left center; 
+	width:11px; 
+	height:15px;
+}
+
+.form_container .tip_content .close {
+	position:absolute;
+	right:5px;
+	top:2px;
+	width:11px; 
+	height:15px;
+}
+
+/*错误提示*/
+.form_container .errtip {
+
+	z-index:999999;
+	display:none;
+}
+
+.form_container .errtip .tip_content {
+	position:relative;
+	cursor:pointer;
+	font: 10pt "Microsoft YaHei", Arial, Helvetica, sans-serif; color:#3d3d3d;
+}
+
+.form_container .errtip .tip_content .t {
+	padding:13px;
+	width:160px;
+	min-height:22px;
+	_height:22px;
+	
+	color:#F00;
+
+	line-height:20px;
+	border:1px solid #BEBEBE;
+	background:#FFFF00;
+
+	-moz-border-radius: 5px; -webkit-border-radius: 5px;
+	-o-box-shadow: 1px 2px 3px #ccc;
+	-icab-box-shadow: 1px 2px 3px #ccc;
+	-khtml-box-shadow: 1px 2px 3px #ccc;
+	-moz-box-shadow: 1px 2px 3px #ccc;
+	-webkit-box-shadow: 1px 2px 3px #ccc;
+	box-shadow: 1px 2px 3px #ccc;
+}
+
+.form_container .errtip .tip_content .t1 {
+	position:absolute;
+	left:-9px;
+	top:15px;
+	background:url(t2.png) no-repeat left center; 
+	width:11px; 
+	height:15px;
+}
